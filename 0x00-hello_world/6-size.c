@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -7,32 +8,16 @@
  */
 int main(void)
 {
-size_t achar = sizeof(char);
-size_t anint = sizeof(int);
-size_t alongint = sizeof(long int);
-size_t along2int = sizeof(long long int);
-size_t afloat = sizeof(float);
-char s1[80];
-char s2[80];
-char s3[80];
-char s4[80];
-char s5[80];
-sprintf(s1, "Size of a char: %zu bytes(s)", achar);
-sprintf(s2, "Size of an int: %zu bytes(s)", anint);
-sprintf(s3, "Size of a long int: %zu bytes(s)", alongint);
-sprintf(s4, "Size of a long long int: %zu bytes(s)", along2int);
-sprintf(s5, "Size of a float: %zu bytes(s)", afloat);
-fprintf(stderr, "%s\n%s\n%s\n%s\n%s", s1, s2, s3, s4, s5)
-/*
-* fprintf(stderr, s2)
-*fprintf(stderr, s3)
-*fprintf(stderr, s4)
-*fprintf(stderr, s5)
-*puts(s1);
-*puts(s2);
-*puts(s3);
-*puts(s4);
-*puts(s5);
-*/
-return (0);
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
+
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+	return (0);
 }
