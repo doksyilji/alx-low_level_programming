@@ -22,15 +22,17 @@ sprintf(s2, "Size of an int: %zu bytes(s)", anint);
 sprintf(s3, "Size of a long int: %zu bytes(s)", alongint);
 sprintf(s4, "Size of a long long int: %zu bytes(s)", along2int);
 sprintf(s5, "Size of a float: %zu bytes(s)", afloat);
-fprintf(stderr, s1)
-fprintf(stderr, s2)
-fprintf(stderr, s3)
-fprintf(stderr, s4)
-fprintf(stderr, s5)
-//puts(s1);
-//puts(s2);
-//puts(s3);
-//puts(s4);
-//puts(s5);
+fprintf(stderr, "%s\n%s\n%s\n%s\n%s", s1, s2, s3, s4, s5)
+/*
+* fprintf(stderr, s2)
+*fprintf(stderr, s3)
+*fprintf(stderr, s4)
+*fprintf(stderr, s5)
+*puts(s1);
+*puts(s2);
+*puts(s3);
+*puts(s4);
+*puts(s5);
+*/
 return (0);
 }
