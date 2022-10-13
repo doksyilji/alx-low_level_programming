@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-achar = sizeof(char);
-anint = sizeof(int);
-alongint = sizeof(long int);
-along2int = sizeof(long long int);
-afloat = sizeof(float;)
+size_t char = sizeof(char);
+size_t anint = sizeof(int);
+size_t alongint = sizeof(long int);
+size_t along2int = sizeof(long long int);
+size_t afloat = sizeof(float);
 char s1[] = sprintf("Size of a char: %zu bytes(s)", achar);
 char s2[] = sprintf("Size of an int: %zu bytes(s)", anint);
 char s3[] = sprintf("Size of a long int: %zu bytes(s)", alongint);
