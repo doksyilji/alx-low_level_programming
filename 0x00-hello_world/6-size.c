@@ -16,7 +16,7 @@ char s1[80];
 char s2[80];
 char s3[80];
 char s4[80];
-char s5[80]
+char s5[80];
 sprintf(s1,"Size of a char: %zu bytes(s)\0", achar);
 sprintf(s2,"Size of an int: %zu bytes(s)\0", anint);
 sprintf(s3,"Size of a long int: %zu bytes(s)\0", alongint);
