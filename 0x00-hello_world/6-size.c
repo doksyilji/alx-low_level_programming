@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-size_t char = sizeof(char);
+size_t achar = sizeof(char);
 size_t anint = sizeof(int);
 size_t alongint = sizeof(long int);
 size_t along2int = sizeof(long long int);
