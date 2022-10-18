@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * jack-bauer - A function that prints out the last digit of a number
+ * jack_bauer - A function that prints out the last digit of a number
  * h = hour, m = minutes
  * / 10 allows second digit rotation
  * Return: 24 hour time line by line
