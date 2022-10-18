@@ -7,6 +7,12 @@
 void print_alphabet(void);
 int main(void)
 {
-	printf("_putchar");
-	return (0);
+	char alphabet;
+
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		_putchar(n);
+	}
+	
+	_putchar('\n');
 }
