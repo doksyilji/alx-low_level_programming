@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - checks for characters that are digits
- * @c: character 
+ * @c: character
  *
  * Return: 0 or 1
  */
@@ -14,4 +14,6 @@ int _isdigit(int c)
 		return (1);
 	else
 		return (0);
+
+	return (0);
 }
