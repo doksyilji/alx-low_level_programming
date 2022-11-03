@@ -1,0 +1,1 @@
+This directory is for practicals on pointers, arrays, and strings in C
