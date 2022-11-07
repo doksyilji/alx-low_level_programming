@@ -2,17 +2,17 @@
 #include <stdlib.h>
 
 /**
- *main - Program entry point
- *
- *Description: Prints the minimum number of coins to make change for an amount
- *of money
- *
- *@argc: Number of arguments passed to the program
- *@argv: Pointer to hold an array of the arguments
- *
- *Return: the minimum number of coins needed to make the change for the amount
- *of money required
- */
+*main - Program entry point
+*
+*Description: Prints the minimum number of coins to make change for an amount
+*of money
+*
+*@argc: Number of arguments passed to the program
+*@argv: Pointer to hold an array of the arguments
+*
+*Return: the minimum number of coins needed to make the change for the amount
+*of money required
+*/
 
 int main(int argc, char *argv[])
 {

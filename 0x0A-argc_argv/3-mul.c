@@ -2,15 +2,15 @@
 #include <stdlib.h>
 
 /**
- *main - Program entry point
- *
- *Description: Multiplies arguments
- *
- *@argc: Number of arguments passed to the program
- *@argv: Pointer to hold an array of the arguments
- *
- *Return: 0
- */
+*main - Program entry point
+*
+*Description: Multiplies arguments
+*
+*@argc: Number of arguments passed to the program
+*@argv: Pointer to hold an array of the arguments
+*
+*Return: 0
+*/
 
 int main(int argc, char *argv[])
 {
@@ -26,5 +26,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
+
 	return (0);
 }

@@ -2,16 +2,16 @@
 #include <stdlib.h>
 
 /**
- *main - entry point
- *
- *Description: Adds positive numbers
- *
- *@argc: Number of arguments passed to the program
- *@argv: Pointer to hold an array of the arguments
- *
- *Return: the sum of the numbers, if no number is passed then print 0, if a
- *number has symbols that are not digit then print Error and return 1
- */
+*main - entry point
+*
+*Description: Adds positive numbers
+*
+*@argc: Number of arguments passed to the program
+*@argv: Pointer to hold an array of the arguments
+*
+*Return: the sum of the numbers, if no number is passed then print 0, if a
+*number has symbols that are not digit then print Error and return 1
+*/
 
 int main(int argc, char *argv[])
 {
