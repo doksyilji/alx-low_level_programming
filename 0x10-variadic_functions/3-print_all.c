@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * print_all: This prints all kinds of data types.
+ * print_all- This prints all kinds of data types.
  * @format: The list of types of arguments.
  * Return: Nothing. It is a void return type.
  */
